@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Rock_Cave02
+  m_Shader: {fileID: 4800000, guid: 432c5f0864204a6469278c7f0e8cbc7c, type: 3}
+  m_ShaderKeywords:
+  - _RIMLIGHTING_ON
+  - _AFFECTRIM_ON
+  - _AFFECTDIFUSE_ON
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 495ee51aba9e00247817885527eb9bf4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMain
+        second:
+          m_Texture: {fileID: 2800000, guid: c2f93193594ddac4b8676b39cb89720c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMain
+        second:
+          m_Texture: {fileID: 2800000, guid: 495ee51aba9e00247817885527eb9bf4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseDetail
+        second:
+          m_Texture: {fileID: 2800000, guid: 4d8d2753db0674a4399c904ce029cb0a, type: 3}
+          m_Scale: {x: 23, y: 23}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalDetail
+        second:
+          m_Texture: {fileID: 2800000, guid: 18759bc4849df944cbbd884945322ac0, type: 3}
+          m_Scale: {x: 33, y: 33}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CustomAO
+        second:
+          m_Texture: {fileID: 2800000, guid: ec3946ef91ce892488afbb655d4b1844, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 2800000, guid: d7d56d00acb842248823054ae04db134, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 2800000, guid: edee04243e1877e4799d7d26395a5f17, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Detail
+        second:
+          m_Texture: {fileID: 2800000, guid: 4d8d2753db0674a4399c904ce029cb0a, type: 3}
+          m_Scale: {x: 11, y: 11}
+          m_Offset: {x: 1, y: 1}
+      data:
+        first:
+          name: _HeightMap
+        second:
+          m_Texture: {fileID: 2800000, guid: d7d56d00acb842248823054ae04db134, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailBump
+        second:
+          m_Texture: {fileID: 2800000, guid: 18759bc4849df944cbbd884945322ac0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 1, y: 1}
+    m_Floats:
+      data:
+        first:
+          name: _CustomAO
+        second: .827450991
+      data:
+        first:
+          name: _RimLevel
+        second: 2.51999998
+      data:
+        first:
+          name: _SpecularIntensity
+        second: 3.13000011
+      data:
+        first:
+          name: _Gloss
+        second: .170000002
+      data:
+        first:
+          name: _Tiling
+        second: 1
+      data:
+        first:
+          name: _AOStrenght
+        second: .446428537
+      data:
+        first:
+          name: _Tiling_Detail
+        second: 1
+      data:
+        first:
+          name: _AffectDifuse
+        second: 1
+      data:
+        first:
+          name: _Lightintensity
+        second: 0
+      data:
+        first:
+          name: _AffectSpecular
+        second: 0
+      data:
+        first:
+          name: _AffectRim
+        second: 1
+      data:
+        first:
+          name: _RimPower
+        second: 1
+      data:
+        first:
+          name: _Shininess
+        second: .0602096058
+      data:
+        first:
+          name: _Parallax
+        second: .00499999989
+      data:
+        first:
+          name: _FresnelValue
+        second: 7.01127815
+      data:
+        first:
+          name: _Heightvalue
+        second: .00499999989
+      data:
+        first:
+          name: _ParallaxDepth
+        second: 1
+      data:
+        first:
+          name: _AOAmmount
+        second: .410714269
+      data:
+        first:
+          name: _UVTiling
+        second: 1
+      data:
+        first:
+          name: _AffectAO
+        second: 0
+      data:
+        first:
+          name: _ShadeRange
+        second: .0500000007
+      data:
+        first:
+          name: _ShadingStrength
+        second: .392857134
+      data:
+        first:
+          name: _FresnelLevel
+        second: 2.85714293
+      data:
+        first:
+          name: _node_387
+        second: 0
+      data:
+        first:
+          name: _AOStrength
+        second: 0
+      data:
+        first:
+          name: _node_398
+        second: 0
+      data:
+        first:
+          name: _node_399
+        second: 0
+      data:
+        first:
+          name: _node_406
+        second: 0
+      data:
+        first:
+          name: _RimLighting
+        second: 1
+      data:
+        first:
+          name: _AmbientOclussion
+        second: .827450991
+      data:
+        first:
+          name: _node_409
+        second: 0
+      data:
+        first:
+          name: _node_412
+        second: .827450991
+      data:
+        first:
+          name: _node_429
+        second: 0
+      data:
+        first:
+          name: _node_451
+        second: .980392218
+      data:
+        first:
+          name: _node_465
+        second: 1
+      data:
+        first:
+          name: _DifuseAOAtenuation
+        second: 0
+      data:
+        first:
+          name: _NormalIntensity
+        second: 1
+      data:
+        first:
+          name: _AlphaCutRange
+        second: 1
+      data:
+        first:
+          name: _UseAlpha
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ColorTint
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .098615922, g: .279411793, b: .174674854, a: 1}
+      data:
+        first:
+          name: _SpecularTint
+        second: {r: .625, g: .860344887, b: 1, a: 1}
+      data:
+        first:
+          name: _AODifAtenuation
+        second: {r: .484969705, g: .845588207, b: .770977497, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _FresnelColor
+        second: {r: .129919991, g: .158783242, b: .198529422, a: 1}
+      data:
+        first:
+          name: _node_449
+        second: {r: .5, g: .5, b: .5, a: 1}

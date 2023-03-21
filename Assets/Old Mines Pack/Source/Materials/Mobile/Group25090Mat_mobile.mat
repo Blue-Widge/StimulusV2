@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Group25090Mat_mobile
+  m_Shader: {fileID: 4800000, guid: 8596e552de614c243bebd71a1fc48611, type: 3}
+  m_ShaderKeywords:
+  - _AFFECTRIM_ON
+  - _AFFECTSPECULAR_ON
+  - _AFFECTDIFUSE_ON
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMain
+        second:
+          m_Texture: {fileID: 2800000, guid: 8e65761fe7dfae3478383aad2321f2aa, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMain
+        second:
+          m_Texture: {fileID: 2800000, guid: 7f5d5eca32240cf4babf43be10e1635f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseDetail
+        second:
+          m_Texture: {fileID: 2800000, guid: 4d8d2753db0674a4399c904ce029cb0a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalDetail
+        second:
+          m_Texture: {fileID: 2800000, guid: 18759bc4849df944cbbd884945322ac0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CustomAO
+        second:
+          m_Texture: {fileID: 2800000, guid: 208484f67c14b644ab9bf4ed1ece66e3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _RimLevel
+        second: 1.88999999
+      data:
+        first:
+          name: _SpecularIntensity
+        second: 1.87
+      data:
+        first:
+          name: _Gloss
+        second: .100000001
+      data:
+        first:
+          name: _Tiling
+        second: 1
+      data:
+        first:
+          name: _AOStrenght
+        second: .267857134
+      data:
+        first:
+          name: _Tiling_Detail
+        second: 20
+      data:
+        first:
+          name: _AffectDifuse
+        second: 1
+      data:
+        first:
+          name: _Lightintensity
+        second: 0
+      data:
+        first:
+          name: _AffectSpecular
+        second: 1
+      data:
+        first:
+          name: _AffectRim
+        second: 1
+      data:
+        first:
+          name: _FresnelValue
+        second: 4.51127815
+      data:
+        first:
+          name: _RimPower
+        second: 1.80999994
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ColorTint
+        second: {r: .541379333, g: .541379333, b: .541379333, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .224137932, g: .193478927, b: .133493915, a: 1}
+      data:
+        first:
+          name: _SpecularTint
+        second: {r: .359888434, g: .463936329, b: .520689666, a: 1}
+      data:
+        first:
+          name: _AODifAtenuation
+        second: {r: .330882311, g: .675280988, b: 1, a: 1}
+      data:
+        first:
+          name: _FresnelColor
+        second: {r: .5, g: .5, b: .5, a: 1}

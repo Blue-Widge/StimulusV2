@@ -1,0 +1,105 @@
+[OLDMINES]
+
+SPECIFICATIONS:
+
+Old Mines Pack gives you a set of premade assets prepared to create mines environment including big assets as caves or tunnels and other small details such as rocks, vagons, lamps, etc.
+
+ASSETS INCLUDED:
+
+[OVER 75 DIFFERNET PREFABS]
+(and growing)
+
+ - 2 Big Rock Rooms
+ - 5 Cave Tunnels
+ - 2 Cave Tunnel nexos
+ - 2 Section Cave Scaffold
+ - 1 Coal Pile
+ - 8 Diferent Columns
+ - 4 Lamppost
+ - 2 Hang Lamp
+ - 18 Rail pieces
+ - 8 Rock pieces
+ - 10 Scaffold pieces
+ - 5 Vagon
+ - 9 Particle Systems
+
+(update 1.1)
+
+- 10 Bridges & bridge components
+- 7 Wood planks
+- 1 Wood Dead End
+- 2 Big Rooms
+- 11 Stairs pieces
+- 2 Tunnel ramp
+- 4 Tunnel stairs
+
+(update 1.1.5)
+
+- 2 Entrance assets:
+- Mines entrance Hill
+- Mines entrance wall
+
+
+
+[PREMADE TEXTURE PACK]
+
+Over 70 textures to create advanced materials with Depth maps, Oclussion, Cavity & Normal maps inside.
+
+[CUSTOM SHADERS]
+
+Included 6 Custom Shaders (created with ShaderForge) and optimized for the Old Mines package:
+
+ - Bumped Detail
+ - Bumped Detail Rim
+ - Bumped Detail Rim Ambient Oclussion
+ - Bumped Rim Transmissive
+ - Bumped Rim Reflective
+ - Parallax Detail
+ - Parallax Detail Rim Ambient Oclussion
+
+(update 1.1)
+
+- Additive 2 Sided
+- Alpha Clip Rim
+- Alpha Clip Rim 2 Sided
+- Bumped Rim Emissive
+- Bumped Rim
+- Bumped Rim Specular
+- Flag
+- Simple Alpha
+- Transparent Bumped Rim Ref
+- Transparent Bumped Rim Ref Cutout
+- Mobile Bumped Detail
+- Additive Emissive Particle
+
+[PARTICLE SYSTEMS]
+
+9 Custom particle system (Shuriken):
+
+ - 1 Fire
+ - 1 Dust
+ - 7 Fog
+
+[DEMOSCENE]
+
+Demoscene (as seen in the video-demo) available into the package.
+
+(update 1.1)
+
+Included 2 scenes. Hole new scene for standalone & scene for mobile development. Both includes sample assets' character "Ethan" with controller.
+
+[EXTRA]
+
+(update 1.1)
+
+- Mobile Ready scene with materials & shaders.
+
+- Included package with Unity 5 Beta ready scene & materials.
+
+WARNING: We do not provide support or take any liability about the unity 5 beta included material.
+WARNING: Mobile Demoscene has been tested on Nexus 4, OnePlue One & Galaxy 3. We cannot assure it will work in every mobile device.
+
+
+2014(c)Many-worlds
+
+Contact: info@many-worlds.es

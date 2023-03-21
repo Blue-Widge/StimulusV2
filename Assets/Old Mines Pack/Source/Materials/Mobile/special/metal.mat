@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: metal
+  m_Shader: {fileID: 4800000, guid: 1c460f4f9ae90014d9cf1f5c0f97182a, type: 3}
+  m_ShaderKeywords:
+  - _AFFECTDIFUSE_ON
+  - _AFFECTSPECULAR_ON
+  - _AFFECTRIM_ON
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 49c907fafed3e0e4c80ce19a24834e8e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 49c907fafed3e0e4c80ce19a24834e8e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMain
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMain
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseDetail
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalDetail
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CustomAO
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Base
+        second:
+          m_Texture: {fileID: 2800000, guid: 62b1e715815e1d34d9f88ecc7439384a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularRGBGlossA
+        second:
+          m_Texture: {fileID: 2800000, guid: 62b1e715815e1d34d9f88ecc7439384a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionCube
+        second:
+          m_Texture: {fileID: 8900000, guid: 12ac4af8e134c684aa67a122a015b041, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .157054693
+      data:
+        first:
+          name: _RimLevel
+        second: 7.80516624
+      data:
+        first:
+          name: _SpecularIntensity
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: .0500000007
+      data:
+        first:
+          name: _Tiling
+        second: 1
+      data:
+        first:
+          name: _AOStrenght
+        second: .5
+      data:
+        first:
+          name: _Tiling_Detail
+        second: 1
+      data:
+        first:
+          name: _AffectDifuse
+        second: .980392218
+      data:
+        first:
+          name: _Lightintensity
+        second: 0
+      data:
+        first:
+          name: _AffectSpecular
+        second: .97647059
+      data:
+        first:
+          name: _AffectRim
+        second: .827450991
+      data:
+        first:
+          name: _FresnelValue
+        second: 4.51127815
+      data:
+        first:
+          name: _SpecularLevel
+        second: 1.78571427
+      data:
+        first:
+          name: _GlossLevel
+        second: .892857075
+      data:
+        first:
+          name: _ReflectionFresnel
+        second: .178571418
+      data:
+        first:
+          name: _node_237
+        second: 0
+      data:
+        first:
+          name: _ReflectionAmmount
+        second: 1.42857134
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ColorTint
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .17306444, g: .190819994, b: .242647052, a: 1}
+      data:
+        first:
+          name: _SpecularTint
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _AODifAtenuation
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _FresnelColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _ColorReflection
+        second: {r: .690311372, g: .696217597, b: .705882311, a: 1}

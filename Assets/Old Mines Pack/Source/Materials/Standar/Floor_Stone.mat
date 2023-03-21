@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Floor_Stone
+  m_Shader: {fileID: 4800000, guid: 432c5f0864204a6469278c7f0e8cbc7c, type: 3}
+  m_ShaderKeywords:
+  - _AFFECTSPECULAR_ON
+  - _AFFECTDIFUSE_ON
+  - _AFFECTRIM_ON
+  - _AFFECTAO_ON
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: d25b36fdf732523469da0348e71fff8a, type: 3}
+          m_Scale: {x: 10, y: 10}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMain
+        second:
+          m_Texture: {fileID: 2800000, guid: 64b9f69352048aa47af2ff83c82cd72a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMain
+        second:
+          m_Texture: {fileID: 2800000, guid: 16df1d59e033c024ea09f9f999461a88, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseDetail
+        second:
+          m_Texture: {fileID: 2800000, guid: c2f93193594ddac4b8676b39cb89720c, type: 3}
+          m_Scale: {x: 2, y: 2}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalDetail
+        second:
+          m_Texture: {fileID: 2800000, guid: 619e136239804b44b8dae6db53b6eee8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CustomAO
+        second:
+          m_Texture: {fileID: 2800000, guid: 64b9f69352048aa47af2ff83c82cd72a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 2800000, guid: fb7b12c1628261943aff48910fa5d867, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 2800000, guid: c2f93193594ddac4b8676b39cb89720c, type: 3}
+          m_Scale: {x: 9, y: 9}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _HeightMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 8c5a0de67e3e64547bc1200b6deb1a56, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _CustomAO
+        second: .827450991
+      data:
+        first:
+          name: _RimLevel
+        second: 2.51999998
+      data:
+        first:
+          name: _SpecularIntensity
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: .219999999
+      data:
+        first:
+          name: _Tiling
+        second: 14.8199997
+      data:
+        first:
+          name: _AOStrenght
+        second: .124999978
+      data:
+        first:
+          name: _Tiling_Detail
+        second: 1
+      data:
+        first:
+          name: _AffectDifuse
+        second: 1
+      data:
+        first:
+          name: _Lightintensity
+        second: 1
+      data:
+        first:
+          name: _AffectSpecular
+        second: 1
+      data:
+        first:
+          name: _AffectRim
+        second: 1
+      data:
+        first:
+          name: _RimPower
+        second: 1
+      data:
+        first:
+          name: _Shininess
+        second: .0496822484
+      data:
+        first:
+          name: _Parallax
+        second: .0331250019
+      data:
+        first:
+          name: _FresnelValue
+        second: 4.51127815
+      data:
+        first:
+          name: _Heightvalue
+        second: .0599999987
+      data:
+        first:
+          name: _ParallaxDepth
+        second: .482142866
+      data:
+        first:
+          name: _AOAmmount
+        second: .535714269
+      data:
+        first:
+          name: _UVTiling
+        second: 8.94999981
+      data:
+        first:
+          name: _AffectAO
+        second: .827450991
+      data:
+        first:
+          name: _ShadeRange
+        second: .109999999
+      data:
+        first:
+          name: _ShadingStrength
+        second: 0
+      data:
+        first:
+          name: _FresnelLevel
+        second: 3.75000024
+      data:
+        first:
+          name: _node_387
+        second: 0
+      data:
+        first:
+          name: _AOStrength
+        second: 0
+      data:
+        first:
+          name: _node_398
+        second: 0
+      data:
+        first:
+          name: _node_399
+        second: 0
+      data:
+        first:
+          name: _node_406
+        second: 0
+      data:
+        first:
+          name: _RimLighting
+        second: 0
+      data:
+        first:
+          name: _AmbientOclussion
+        second: .827450991
+      data:
+        first:
+          name: _node_409
+        second: 0
+      data:
+        first:
+          name: _node_412
+        second: .827450991
+      data:
+        first:
+          name: _node_429
+        second: 0
+      data:
+        first:
+          name: _node_451
+        second: .980392218
+      data:
+        first:
+          name: _node_465
+        second: 1
+      data:
+        first:
+          name: _DifuseAOAtenuation
+        second: 0
+      data:
+        first:
+          name: _NormalIntensity
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ColorTint
+        second: {r: .168965518, g: .167723134, b: .167723134, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .0735294223, g: .0721572712, b: .061094299, a: 1}
+      data:
+        first:
+          name: _SpecularTint
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _AODifAtenuation
+        second: {r: .166630626, g: .189116746, b: .338235319, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _FresnelColor
+        second: {r: .176470578, g: .173893318, b: .15311417, a: 1}
+      data:
+        first:
+          name: _node_449
+        second: {r: .5, g: .5, b: .5, a: 1}

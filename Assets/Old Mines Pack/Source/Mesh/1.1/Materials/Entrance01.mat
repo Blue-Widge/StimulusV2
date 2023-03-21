@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Entrance01
+  m_Shader: {fileID: 4800000, guid: cbdbe6548fa2f0c4991ca1734d1fc436, type: 3}
+  m_ShaderKeywords:
+  - _AFFECTAO_ON
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMain
+        second:
+          m_Texture: {fileID: 2800000, guid: fdd8185f51555a440b733bb0f6e73441, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMain
+        second:
+          m_Texture: {fileID: 2800000, guid: 457ee3a911d004a49bd191b997d32de5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseDetail
+        second:
+          m_Texture: {fileID: 2800000, guid: 56583ccde99cff44a8a700d03faec988, type: 3}
+          m_Scale: {x: 6, y: 6}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalDetail
+        second:
+          m_Texture: {fileID: 2800000, guid: 506e3e496d6e7be4b99c3b4a94b369d2, type: 3}
+          m_Scale: {x: 6, y: 6}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CustomAO
+        second:
+          m_Texture: {fileID: 2800000, guid: 7da6e56624f024b429ad2ad44756dc96, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 2800000, guid: 0dd4ab7e519faac468c4c2774629c04d, type: 3}
+          m_Scale: {x: 6, y: 6}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _HeightMap
+        second:
+          m_Texture: {fileID: 2800000, guid: c04147d1b393b104293247d2be70da33, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _RimLevel
+        second: 4.32330751
+      data:
+        first:
+          name: _SpecularIntensity
+        second: 1.24000001
+      data:
+        first:
+          name: _Gloss
+        second: .219999999
+      data:
+        first:
+          name: _AOStrenght
+        second: .285714298
+      data:
+        first:
+          name: _Heightvalue
+        second: .0199999996
+      data:
+        first:
+          name: _ParallaxDepth
+        second: 0
+      data:
+        first:
+          name: _AOAmmount
+        second: .5
+      data:
+        first:
+          name: _UVTiling
+        second: 1
+      data:
+        first:
+          name: _AffectAO
+        second: .968627512
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .588, g: .588, b: .588, a: 1}
+      data:
+        first:
+          name: _ColorTint
+        second: {r: .520689666, g: .520689666, b: .520689666, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .179513171, g: .193944618, b: .203448266, a: 1}
+      data:
+        first:
+          name: _SpecularTint
+        second: {r: 1, g: 1, b: 1, a: 1}
