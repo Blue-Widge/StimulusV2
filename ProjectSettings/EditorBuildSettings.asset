@@ -4,5 +4,18 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/LAV2/Menu/Scenes/Menu.unity
+    guid: 2f36ec57b38a8074d8ad75c3b5d1e12c
+  - enabled: 1
+    path: Assets/LaMine/SceneMine.unity
+    guid: 9929655bf32f283489f9cce332a38920
+  - enabled: 1
+    path: Assets/LAV2/Scene/FinalRace.unity
+    guid: 03a487113039b2c418979423dd6b87ef
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 172b6e3de090a3e4589433f87292df79, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 25e5dacb5b624cd4a89208a5781ad941, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: edc898aff9340fa4e9d8fd1f9000d61f, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0c232971910604045be12ddf106c252f, type: 2}
