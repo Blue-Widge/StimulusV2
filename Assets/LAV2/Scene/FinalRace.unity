@@ -1094,7 +1094,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.65
+  m_fontSize: 9.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2299,6 +2299,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 75d6f3387aee96d4ab2159b8a8ac1c6d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1287252109}
+    - targetCorrespondingSourceObject: {fileID: 8501974535273696344, guid: 75d6f3387aee96d4ab2159b8a8ac1c6d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1494388945}
   m_SourcePrefab: {fileID: 100100000, guid: 75d6f3387aee96d4ab2159b8a8ac1c6d, type: 3}
 --- !u!1 &1287252106 stripped
 GameObject:
@@ -2308,6 +2311,11 @@ GameObject:
 --- !u!4 &1287252107 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 75d6f3387aee96d4ab2159b8a8ac1c6d, type: 3}
+  m_PrefabInstance: {fileID: 1287252105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1287252108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8501974535273696344, guid: 75d6f3387aee96d4ab2159b8a8ac1c6d, type: 3}
   m_PrefabInstance: {fileID: 1287252105}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1287252109
@@ -2347,7 +2355,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00362dbb9245c3049adfa8d454eb964e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody: {fileID: 1287252114}
   frontLeftWheel: {fileID: 1961602915}
   frontRightWheel: {fileID: 632078024}
 --- !u!114 &1287252111
@@ -2495,12 +2502,9 @@ MonoBehaviour:
   brakeMaterial: {fileID: 2100000, guid: 68ac01daaeafc134cabb5724f90dfc20, type: 2}
   brakingColor: {r: 1, g: 0, b: 0, a: 1}
   brakeColorIntensity: 2
-  accelerationCalculator: {fileID: 1287252110}
-  offsetPercentage: 0
-  saturationPercentage: 17
-  normalizedStrength: 0
+  lateralForceCalculator: {fileID: 0}
   forceMagnitude: 0
-  SteeringWheel: {fileID: 0}
+  SteeringWheel: {fileID: 1494388945}
 --- !u!65 &1287252113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2718,7 +2722,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8
+  m_fontSize: 6.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2836,6 +2840,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5913281937065957125, guid: 75d6f3387aee96d4ab2159b8a8ac1c6d, type: 3}
   m_PrefabInstance: {fileID: 1287252105}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1494388945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287252108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e39c807cf546a4eb5023a5cb88b50c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheelControllerRotation: 0
+  maxDegree: 505
 --- !u!1 &1623373768
 GameObject:
   m_ObjectHideFlags: 0

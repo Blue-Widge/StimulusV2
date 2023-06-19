@@ -71,11 +71,7 @@ public class CarController : MonoBehaviour
     public float brakeColorIntensity;
     
     // Force Feedback
-    [SerializeField] private AccelerationCalculator accelerationCalculator;
-    [SerializeField] [Range(0,100)] private int offsetPercentage;
-    [FormerlySerializedAs("coeficientPercentage")]
-    [SerializeField] [Range(0,100)] private int saturationPercentage;
-    [SerializeField] private float normalizedStrength;
+    private LateralForceCalculator lateralForceCalculator;
 
     [SerializeField] private int forceMagnitude;
 
@@ -467,7 +463,6 @@ public class CarController : MonoBehaviour
 
     void CheckInput()
     {
-        //gasInput = Input.GetAxis("Vertical"); // pour les pédale
         gasInput = 0;
 
         gasInput += (rec.lRz - rec.lY) / 32767f;
@@ -513,27 +508,6 @@ public class CarController : MonoBehaviour
         {
             brakeInput = 0;
         }
-        
-
-
-        /*
-        old tutorial code
-        if (slipAngle < 120f) {
-            if (gasInput < 0)
-            {
-                brakeInput = Mathf.Abs( gasInput);
-                gasInput = 0;
-            }
-            else
-            {
-                brakeInput = 0;
-            }
-        }
-        else
-        {
-            brakeInput = 0;
-        }*/
-
     }
     void ApplyBrake()
     {
@@ -569,18 +543,10 @@ public class CarController : MonoBehaviour
     private void SetCenterForce()
     {        
         // Calculate the force magnitude based on the lateral force measured at the front tires
-        forceMagnitude = accelerationCalculator.CalculateLateralForce(); // Implement your own logic to calculate lateral force
-
+        forceMagnitude = lateralForceCalculator.CalculateLateralForce();
+        
         // Set the center force feedback effect
         LogitechGSDK.LogiPlayConstantForce(0, forceMagnitude);
-        // Get the current acceleration value
-        //float acceleration = accelerationCalculator.acceleration;
-
-        // Calculate the normalized force feedback strength based on the acceleration value
-        ///normalizedStrength = Mathf.Clamp01(acceleration);
-
-        // Set the center force feedback effect
-        //LogitechGSDK.LogiPlaySpringForce(0, offsetPercentage, saturationPercentage, (int)(normalizedStrength * 100));
 
     }
     float CalculateTorque()
